@@ -1,0 +1,26 @@
+{
+  "genotype": "p53KO",
+  "reason": "MANUAL_VISUAL_REVIEW",
+  "note": "Cells excluded after visual inspection of CDT1/Geminin traces (final analysis, 2026-04-01).",
+  "exclusions": [
+    "Well1_p53KO_Field3_Cell3",
+    "Well1_p53KO_Field4_Cell13",
+    "Well1_p53KO_Field4_Cell7",
+    "Well1_p53KO_Field7_Cell1",
+    "Well1_p53KO_Field7_Cell3",
+    "Well1_p53KO_Field7_Cell5",
+    "Well1_p53KO_Field8_Cell11",
+    "Well2_p53KO_Field6_Cell16",
+    "Well4_p53KO_Field2_Cell12",
+    "Well4_p53KO_Field2_Cell13",
+    "Well4_p53KO_Field2_Cell15",
+    "Well4_p53KO_Field2_Cell16",
+    "Well4_p53KO_Field2_Cell2",
+    "Well4_p53KO_Field2_Cell5",
+    "Well4_p53KO_Field2_Cell6",
+    "Well6_p53KO_Field1_Cell15",
+    "Well6_p53KO_Field1_Cell19",
+    "Well6_p53KO_Field1_Cell4",
+    "Well6_p53KO_Field1_Cell9"
+  ]
+}

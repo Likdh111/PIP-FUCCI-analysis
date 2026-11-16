@@ -1,0 +1,23 @@
+{
+  "genotype": "dKO",
+  "reason": "MANUAL_VISUAL_REVIEW",
+  "note": "Cells excluded after visual inspection of CDT1/Geminin traces (final analysis, 2026-03-26).",
+  "exclusions": [
+    "Well1_dKO_Field1_Cell1",
+    "Well2_dKO_Field2_Cell4",
+    "Well2_dKO_Field2_Cell9",
+    "Well4_dKO_Field1_Cell16",
+    "Well4_dKO_Field1_Cell6",
+    "Well4_dKO_Field2_Cell1",
+    "Well4_dKO_Field3_Cell5",
+    "Well4_dKO_Field3_Cell6",
+    "Well4_dKO_Field7_Cell1",
+    "Well5_dKO_Field1_Cell6",
+    "Well5_dKO_Field1_Cell8",
+    "Well5_dKO_Field3_Cell14",
+    "Well5_dKO_Field3_Cell15",
+    "Well5_dKO_Field4_Cell12",
+    "Well5_dKO_Field4_Cell13",
+    "Well5_dKO_Field4_Cell4"
+  ]
+}

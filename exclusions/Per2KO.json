@@ -1,0 +1,23 @@
+{
+  "genotype": "Per2KO",
+  "reason": "MANUAL_VISUAL_REVIEW",
+  "note": "Cells excluded after visual inspection of CDT1/Geminin traces (final analysis, 2026-03-26).",
+  "exclusions": [
+    "Well1_Per2KO_Field6_Cell5",
+    "Well1_Per2KO_Field9_Cell1",
+    "Well1_Per2KO_Field9_Cell12",
+    "Well2_Per2KO_Field3_Cell1",
+    "Well2_Per2KO_Field8_Cell10",
+    "Well2_Per2KO_Field8_Cell12",
+    "Well2_Per2KO_Field8_Cell14",
+    "Well2_Per2KO_Field8_Cell5",
+    "Well2_Per2KO_Field8_Cell7",
+    "Well2_Per2KO_Field8_Cell8",
+    "Well3_Per2KO_Field3_Cell10",
+    "Well3_Per2KO_Field4_Cell7",
+    "Well3_Per2KO_Field7_Cell4",
+    "Well3_Per2KO_Field9_Cell1",
+    "Well3_Per2KO_Field9_Cell5",
+    "Well6_Per2KO_Field1_Cell20"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "genotype": "WT",
+  "reason": "MANUAL_VISUAL_REVIEW",
+  "note": "Cells excluded after visual inspection of CDT1/Geminin traces (final analysis, 2026-03-26).",
+  "exclusions": [
+    "Well4_WT_Field3_Cell1",
+    "Well4_WT_Field4_Cell3",
+    "Well4_WT_Field7_Cell17",
+    "Well4_WT_Field7_Cell20",
+    "Well4_WT_Field8_Cell6",
+    "Well4_WT_Field9_Cell8",
+    "Well4_WT_Field9_Cell9"
+  ]
+}

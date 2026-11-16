@@ -19,7 +19,9 @@ This repository starts from the merged CSV.
 | `improved_workflow.py` | Workflow wrapper: runs the analysis, saves manual exclusions, exports plot-ready tables |
 | `cell_review_jupyter.py` | Interactive trace-by-trace review used for manual curation |
 | `PIP_FUCCI_analysis.ipynb` | Notebook that runs the full analysis for one genotype |
-| `exclusions/<genotype>.json` | Cells excluded during manual review for the published analysis || `data/` | Place input CSVs here (see below) |
+| `exclusions/<genotype>.json` | Cells excluded during manual review for the published analysis |
+| `data/` | Input data: single-cell intensity traces for each genotype, and the list of imaged fields (see `data/README.md`) |
+| `published_results/<genotype>/` | Analysis results reported in the paper (see `data/README.md`) |
 
 ## Input format
 
@@ -33,7 +35,7 @@ One CSV per genotype, one row per cell per timepoint:
 | `Geminin_Signal` | Normalized red (Geminin) intensity, 0–1 |
 | `Green_Raw`, `Red_Raw` | Raw intensities (used for raw-signal QC) |
 
-Expected file names: `data/combined_all_conditions_<genotype>.csv`, where genotype is `WT`, `p53KO`, `Per2KO` or `dKO`.
+The data used in the paper are included as `data/combined_all_conditions_<genotype>.csv`, where genotype is `WT`, `p53KO`, `Per2KO` or `dKO`. All columns are described in `data/README.md`.
 
 ## Method summary
 
@@ -56,7 +58,7 @@ Signals are smoothed with a Gaussian filter (sigma = 1 frame).
 **Curation and outliers**
 - Remaining cells with a complete S phase were reviewed visually. Excluded cells are listed in `exclusions/`.
 - Outliers in S and G2/M duration (outside Q1 − 1.5 IQR to Q3 + 1.5 IQR) were removed.
-- The final per-cell table is `results/<genotype>/results_no_outliers.csv`.
+- The final per-cell phase durations are in `cell_data_wide_format.csv`. `results_no_outliers.csv` lists all retained cells, including those without a complete S phase.
 
 ## Usage
 
@@ -70,7 +72,7 @@ Set `GENOTYPE` in the settings cell and run all cells.
 - By default the published exclusions are applied.
 - Set `REDO_MANUAL_REVIEW = True` to curate the cells interactively instead.
 
-Outputs (CSVs and SVG/PDF figures) are written to `results/<genotype>/`.
+Outputs (CSVs and SVG/PDF figures) are written to `results/<genotype>/`. With the included data and exclusion lists, they reproduce the files in `published_results/<genotype>/`.
 
 ## Requirements
 

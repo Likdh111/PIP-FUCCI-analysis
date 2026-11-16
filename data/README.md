@@ -30,11 +30,11 @@ Input data for `PIP_FUCCI_analysis.ipynb`. There is one file per genotype, with 
 | `Geminin_Signal` | `Red_Raw`, min-max normalized to 0–1 for each cell |
 | `TrackID` | Track number from the tracking step |
 | `NucleusX`, `NucleusY` | Tracked nucleus position in the image (pixels) |
-| `Well_ID` | Well number within the genotype. Wells are numbered by plate row: A = Well1, B = Well2, …, F = Well6 |
+| `Well_ID` | Well number within the genotype. Wells 1-3 = rows A-C plate 1; wells 4-6 = rows A-C plate 2 |
 | `Condition` | Genotype |
 | `Field` | Incucyte image (field) number within the well |
 | `Cell_Number` | Cell number within the field |
-| `Folder` | Source folder name, formatted `<Incucyte well>_<image number>`|
+| `Folder` | Source folder name, formatted `<Incucyte well>_<image number>`. rows D-F = rows A-C of the biological replicate well (e.g D1_9 = plate 2, well A1, field 9) |
 
 ## Published results (`../published_results/<genotype>/`)
 

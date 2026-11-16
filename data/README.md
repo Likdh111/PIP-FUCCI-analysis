@@ -34,7 +34,7 @@ Input data for `PIP_FUCCI_analysis.ipynb`. There is one file per genotype, with 
 | `Condition` | Genotype |
 | `Field` | Incucyte image (field) number within the well |
 | `Cell_Number` | Cell number within the field |
-| `Folder` | Source folder name, formatted `<Incucyte well>_<image number>` (e.g. `D1_9` = well D1, image 9) |
+| `Folder` | Source folder name, formatted `<Incucyte well>_<image number>`|
 
 ## Published results (`../published_results/<genotype>/`)
 
